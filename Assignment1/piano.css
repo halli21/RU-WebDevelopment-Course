@@ -1,0 +1,158 @@
+
+
+@media screen and (max-width: 599px) {
+    
+    body {
+        padding-left: 3em;
+        padding-right: 3em;
+        display: block;
+    }
+    #oops{
+        width: 100%;
+    }
+    p.error{
+        font-size:3vw;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;}
+
+    button{display: none;}
+    #tunes{display: none;}
+    label{display: none}
+    
+
+}
+
+@media screen and (min-width: 600px){
+
+    body{
+        padding-left: 3em;
+        width: 100%;
+        max-width: 1000px;
+        min-width: 600px;
+    
+    }
+
+    .play {
+        margin-right: 15%;
+    }
+
+    .white {
+        display: grid;
+        grid-column-gap: 0px;
+        grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+        height: 100px;
+        width: 80%;
+    }
+    
+
+    .piano_w {
+    background-color: white;
+    border: 1,2px solid lightgrey;
+    font-size: 12px;
+    text-align: center;
+    }
+
+
+    .black {
+        display: grid;
+        position: relative;
+        grid-template-columns: auto auto auto auto auto auto auto;
+        top: -100px;
+
+        
+    }
+    .C4b{
+        display: grid;
+        position: relative;
+        grid-template-columns: auto;
+        left: 38%;
+        width: 35%;
+        z-index: 1;
+    }
+    .D4b{
+        display: grid;
+        position: relative;
+        grid-template-columns: auto;
+        left: -5%;
+        width: 35%;
+        z-index: 1;
+    }
+    .F4b{
+        display: grid;
+        position: relative;
+        grid-template-columns: auto ;
+        left: 6%;
+        width: 35%;
+        z-index: 1;
+    }
+    .G4b{
+        display: grid;
+        position: relative;
+        grid-template-columns: auto;
+        left: -37%;
+        width: 35%;
+        z-index: 1;
+    }
+
+    .Bb4{
+        display: grid;
+        position: relative;
+        grid-template-columns: auto ;
+        left: -82%;
+        width: 35%;
+        z-index: 1;
+    }
+    .C5b{
+        display: grid;
+        position: relative;
+        grid-template-columns: auto ;
+        left: -68%;
+        width: 35%;
+        z-index: 1;
+    }
+    .D5b{
+        display: grid;
+        position: relative;
+        grid-template-columns: auto ;
+        left: -112%;
+        width: 35%;
+        z-index: 1;
+    }
+
+    .C4b, .D4b, .F4b, .Bb4, .C5b, .D5b, .G4b{
+        background-color: black;
+        border: 1,2px solid lightgrey;
+        color:white;
+        font-size: 12px;
+        text-align: center;
+        padding-top: 25px;
+        height: 80px;
+
+      
+    }
+
+    button{
+        cursor: pointer;
+    }
+    button:active{
+        background-color: grey;
+    }
+
+    p.error{
+        display: none;}
+    
+    #oops{display: none;}
+
+    label{font-family: Arial, Helvetica, sans-serif;}
+
+}
+
+@media screen and (min-width: 1001) {
+    body {
+        background-color: white;
+        display: none;
+    }
+    
+    
+    
+}

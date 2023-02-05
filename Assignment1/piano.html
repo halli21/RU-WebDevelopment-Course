@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"/>
+    <title>Piano</title>
+    <link rel="stylesheet" type="text/css" href="piano.css" />
+    <meta name="description" content="Piano">
+    <meta name="keywords" content="Piano, CSS, VEFF213">
+    <meta name="author" content="Haraldur Jon and Sigurdur Jonsson"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0!">
+</head>
+<body>
+    <label for="tunes">Tune:</label>
+    <select id="tunes">
+        <option value="fur_elise">Für Elise</option>
+        <option value="the_godfather">The Godfather</option>
+        <option value="seven_nation_army">Seven Nation Army</option>
+    </select>
+
+    <button type="button" class="play"><img src="play.png" alt="Play button" height="15" width="15"/></button>
+    <label>Record:</label>
+    <button type="button" class="record"><img src="record.png" alt="Record button" height="15" width="15"/></button>
+    <button type="button" class="stop"><img src="stop.png" alt="Stop button" height="15" width="15"/></button>
+   
+    <br/><br/>
+
+    <div class="piano">
+        <div class="white">
+            <button class="piano_w">C4<br />(a)</button>
+            <button class="piano_w">D4<br />(s)</button>
+            <button class="piano_w">E4<br />(d)</button>
+            <button class="piano_w">F4<br />(f)</button>
+            <button class="piano_w">G4<br />(g)</button>
+            <button class="piano_w">A4<br />(h)</button>
+            <button class="piano_w">B4<br />(j)</button>
+            <button class="piano_w">C5<br />(k)</button>
+            <button class="piano_w">D5<br />(l)</button>
+            <button class="piano_w">E5<br />(;)</button>
+        </div>
+
+        <div class="black">
+            <button class="C4b">C#4<br />(w)</button>
+            <button class="D4b">D#4<br />(e)</button>
+            <button class="F4b">F#4<br />(t)</button>
+            <button class="G4b">G#4<br />(y)</button>
+            <button class="Bb4">Bb4<br />(u)</button>
+            <button class="C5b">C#5<br />(o)</button>
+            <button class="D5b">D#5<br />(p)</button>
+        </div>
+    </div>
+
+    <img id="oops" src="oops.jpg" alt="Error: This website requires at least 600px screen width.">
+    <p class="error">This website requires at least 600px screen width.</p>
+</body>
+</html>

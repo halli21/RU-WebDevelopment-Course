@@ -1,0 +1,11 @@
+POST /api/v1/genres HTTP/1.1
+Host: localhost:3000
+Authorization: HMAC f1a71952d1c9d661edf9fe8825ee711b6dc07408903de1e763a58baa0eda82fc
+Content-Type: application/json
+Content-Length: 39
+
+{
+    "genreName": "Psychedelic Rock"
+}
+
+
